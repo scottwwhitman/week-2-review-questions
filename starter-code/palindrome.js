@@ -1,10 +1,10 @@
-
-var isPalindrome = function(str) {
-  // Your code goes here //
+function isPalindrome(str){
+// Your code goes here //
+  
 };
 
 
 //// Tests ////
 
-isPalindrome('hello')
-isPalindrome('hannah')
+console.log(isPalindrome('hello'));
+console.log(isPalindrome('hannah'));

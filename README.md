@@ -1,14 +1,18 @@
 # Week-2-Review
 
+## Objectives
+
+* White boarding practice
+
 ## Problem 1: Factorial using recursion
 Write a function `factorial` that takes a single parameter `n`, and computes the [factorial](http://en.wikipedia.org/wiki/Factorial) of `n`. For example
 
 ```
-factorial(5) => 5 * 4 * 3 * 2 * 1
-factorial(4) => 4 * 3 * 2 * 1
-factorial(3) => 3 * 2 * 1
-factorial(2) => 2 * 1
-factorial(1) => 1
+factorial(5) => 5 * 4 * 3 * 2 * 1 => 120
+factorial(4) => 4 * 3 * 2 * 1 => 24
+factorial(3) => 3 * 2 * 1 => 6
+factorial(2) => 2 * 1 => 2
+factorial(1) => 1 => 1
 factorial(0) => 1
 ```
 
@@ -62,8 +66,8 @@ var isMagic = function(mat) {
 Write a function `hasDupes` that takes in an array of primitive data-types and returns true, if there are duplicates and false otherwise. For example
 
 ```
-hasDupes([1,2,3,4]) => false
-hasDupes([12,2,1,3,4,5,5]) => true
+hasDupes([1,2,3,4]) => []
+hasDupes([12,2,1,3,4,5,5]) => [5]
 ```
 
 Here is some starter code:
@@ -78,8 +82,8 @@ var hasDupes = function(arr) {
 Write a function `chooseTwo` that takes in an array and returns an array of all of the possible pairs of elements in the array. For example
 
 ```
-chooseTwo([1,2,3]) => [[1,2],[1,3],[2,1],[2,3],[3,1],[3,2]]
-chooseTwo(['a','b','c','d']) => [['a','b'],['a','c'],['a','d'],['b','a'],['b','c'],['b','d'],['c','a'],['c','b'],['c','d'],['d','a'],['d','b'],['d','c']]
+chooseTwo([1,2,3]) => [[1,2],[1,3],[1,4],[1,5],[2,3], etc ]
+chooseTwo(['a','b','c','d']) => [['a','b'],['a','c'],['a','d'],['b','c'],['b','d'],['c','d']]
 ```
 
 Here is some starter code:
